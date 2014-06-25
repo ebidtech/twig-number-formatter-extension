@@ -1,0 +1,26 @@
+{
+    "name": "ebidtech/twig-number-formatter-extension",
+    "type": "library",
+    "description": "Twig Number Formatter Extension",
+    "keywords": ["twig", "php", "library"],
+    "homepage": "http://github.com/ebidtech/ebdate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ebidtech",
+            "email": "developers@ebidtech.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "twig/twig": "~1.0"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "1.5.*",
+        "phpmd/phpmd": "~1.5.0",
+        "satooshi/php-coveralls": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "EBT\\Twig": "src/" }
+    }
+}
